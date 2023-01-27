@@ -17,3 +17,18 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body{
     background-color: beige;
 }
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+    width: 90vw;
+    height: 50vh;
+    margin: 0 auto;
+}

@@ -9,6 +9,9 @@
 </head>
 
 <body>
-    <header>
-        <h1>4W4-Creation d'interface</h1>
+    <header><h3></h3>
+    <h3>-<?php echo bloginfo('name'); ?></h3>
+    <h3>-<?php echo bloginfo('description'); ?></h3>
+    <h3>-</h3>
+       <h1><a href="<?php echo bloginfo('url'); ?>"><?= bloginfo('name') ?></a>  </h1> -  <h2><?= bloginfo('description') ?> </h2>
     </header>

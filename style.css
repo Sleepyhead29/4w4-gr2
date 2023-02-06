@@ -395,7 +395,7 @@ p {
   justify-content: flex-end;
 }
 .menu-entete-container .menu .menu-item {
-  color: red;
+  color: #050;
   font-size: 20px;
 }
 .menu-entete-container .menu .menu-item a {

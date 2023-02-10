@@ -17,6 +17,7 @@ Text Domain: 2023-4w4
 
 /* --------------------------------------------- base */
 @import "base/heading";
+@import "base/_body";
 // @import "base/espacement";
 // @import "base/lien";
 // @import "base/list";
@@ -24,4 +25,5 @@ Text Domain: 2023-4w4
 /* --------------------------------------------- composant */
  @import "composant/pied_page";
  @import "composant/site_entete";
+
 

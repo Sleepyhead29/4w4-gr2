@@ -369,6 +369,22 @@ p {
   font-family: "Times New Roman", Times, serif;
 }
 
+body {
+  background-color: aliceblue;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: beige;
+}
+
+.article-solo {
+  width: 30em;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+
 /* --------------------------------------------- composant */
 .site__footer {
   display: flex;
@@ -389,6 +405,7 @@ p {
   background-color: aquamarine;
 }
 
+/*----------------------------------------- Menu Entète */
 .menu-entete-container .menu {
   display: flex;
   list-style-type: none;

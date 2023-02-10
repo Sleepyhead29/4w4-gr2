@@ -1,9 +1,10 @@
 a{
     color: #888;
-    &:hover{
-        color:#555;
-    }
     &:visited {
         color: #497;
     }
+    &:hover{
+        color:#555;
+    }
+    
 }

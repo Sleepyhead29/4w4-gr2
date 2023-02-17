@@ -1,12 +1,13 @@
 <?php 
 /**
- * Modele par defaut
+ * Modele category par defaut
  * 
  */
 
 ?>
 <?php get_header(); ?>
 <main>
+    <h3>Cstegory.php</h3>
     <section class="blocflex">
     <?php 
     if (have_posts()): 
@@ -18,8 +19,7 @@
       </h2>
       <?php //the_content(); // Affiche le contenu complet de l'article ?>
       <?php the_excerpt(); // Affiche un résumé de l'article ?>
-      <p><?php if(is_category('cours')) echo "cours"; ?></p>
-      <p><?= wp_trim_words(get_the_excerpt(),10, "<span>&#10148;</span>") ?></p>
+      <p><?= wp_trim_words(get_the_excerpt(),10, "&#10148;") ?></p>
       </article>
       <?php endwhile;
             endif;

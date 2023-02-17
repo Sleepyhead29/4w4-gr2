@@ -1,11 +1,11 @@
-# Exercise #1
+# Lab 3
 ## 4w4 - Conception d'interface et développement Web
 ### Auteur: Nazeef Suleman
 #### Description: 
-- Installa-ation local de Wordpress
-- Création d'un thème simple
-- Création d'un dépot git local
-- Création d'un dépot github
+- Améliorer la classe .blocflex
+- Création du modèle category.php
+-  Améliorer l'affichage des articles « markdown »
+
 
 ### Référence
 - https://eddytuto.ca/
